@@ -1,5 +1,5 @@
 ---
-name: gwz-zsh-completions
+name: zsh-completion
 description: Generate, update, and review native zsh completion files (`_command`) for CLI tools. Use when creating, fixing, or auditing a completion — reuse an existing or upstream completion, materialize the tool's own generator, or build from `--help`/man/source; verify with lint, compinit, and a real TAB through zpty. Native zsh only — never bash-compatibility completions (`bashcompinit`, `COMP_WORDS`).
 license: WTFPL
 compatibility: Requires zsh with compinit; the test harness uses zpty.

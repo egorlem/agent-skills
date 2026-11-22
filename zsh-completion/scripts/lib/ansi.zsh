@@ -1,4 +1,4 @@
-# Shared helpers for gwz-zsh-completions scripts.
+# Shared helpers for zsh-completion scripts.
 
 stripAnsi() {
   emulate -L zsh

@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
-# Self-check for the gwz-zsh-completions skill.
+# Self-check for the zsh-completion skill.
 #
 # Validates:
 # - syntax of the scripts and demo fixture;
@@ -26,7 +26,7 @@ __check() {
 __check_frontmatter() {
   local skill_md=$1
   [[ $(head -n 1 "$skill_md") == '---' ]] || return 1
-  grep -q '^name: gwz-zsh-completions$' "$skill_md" || return 1
+  grep -q '^name: zsh-completion$' "$skill_md" || return 1
   grep -q '^description: ' "$skill_md" || return 1
   return 0
 }
