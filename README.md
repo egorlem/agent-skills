@@ -17,4 +17,4 @@ into `fpath`, another by copying the directory. Install per the README inside
 the skill: `skills/<name>/README.md`.
 
 ---
-Maintained by [Egor Lem](https://egorlem.com/). Licensed under WTFPL V III (see [LICENSE](https://egorlem.com/wtfpl.txt) for details).
+Maintained by [Egor Lem](https://egorlem.com/). Licensed under **WTFPL Ver. III** (see [LICENSE](https://egorlem.com/wtfpl.txt) for details).
