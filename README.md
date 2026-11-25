@@ -16,9 +16,5 @@ requirements and its own way of being distributed: one is installed by cloning
 into `fpath`, another by copying the directory. Install per the README inside
 the skill: `skills/<name>/README.md`.
 
-## License
-
-**Do What The F*ck You Want To Public License Version III.**
-See [LICENSE](https://egorlem.com/wtfpl.txt) for details.
-
-Maintained by [Egor Lem](https://egorlem.com/)
+---
+Maintained by [Egor Lem](https://egorlem.com/). Licensed under WTFPL V III (see [LICENSE](https://egorlem.com/wtfpl.txt) for details).
