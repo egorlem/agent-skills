@@ -18,4 +18,7 @@ the skill: `skills/<name>/README.md`.
 
 ## License
 
-WTFPL
+**Do What The F*ck You Want To Public License Version III.**
+See [LICENSE](https://egorlem.com/wtfpl.txt) for details.
+
+Maintained by [Egor Lem](https://egorlem.com/)
