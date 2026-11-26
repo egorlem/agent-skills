@@ -4,7 +4,7 @@ description: Generate, update, and review native zsh completion files (`_command
 license: WTFPL
 compatibility: Requires zsh with compinit; the test harness uses zpty.
 metadata:
-  version: "1.2.1"
+  version: "1.2.2"
 ---
 
 # Generating zsh completions

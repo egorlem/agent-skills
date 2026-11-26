@@ -12,12 +12,21 @@ inside the completion.
 
 ## Install
 
+### Pi agent
+
+```sh
+pi install npm:@egorlem/zsh-completion
+```
+
+Any other agent via npm:
+
 ```sh
 npm install @egorlem/zsh-completion
 ```
 
-The package lands in `node_modules/@egorlem/zsh-completion`. Point the agent at
-`SKILL.md` (the contract) and the `references/` and `scripts/` next to it.
+The package ships a `pi` manifest (`skills: ["./SKILL.md"]`), so Pi registers
+the skill on install. Either way the entry point is `SKILL.md`; `references/`
+and `scripts/` sit next to it.
 
 ## Layout
 

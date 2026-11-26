@@ -1,29 +1,28 @@
 {
   "name": "@egorlem/zsh-completion",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Generate, update, and review native zsh completion files (`_command`) for CLI tools. Use when creating, fixing, or auditing a completion — reuse an existing or upstream completion, materialize the tool's own generator, or build from `--help`/man/source; verify with lint, compinit, and a real TAB through zpty. Native zsh only — never bash-compatibility completions (`bashcompinit`, `COMP_WORDS`).",
   "license": "WTFPL",
   "author": "Egor Lem",
   "homepage": "https://github.com/egorlem/gwz-agent-skills/tree/master/skills/zsh-completion",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/egorlem/gwz-agent-skills.git",
+    "url": "git+https://github.com/egorlem/agent-skills.git",
     "directory": "skills/zsh-completion"
   },
   "bugs": {
-    "url": "https://github.com/egorlem/gwz-agent-skills/issues"
+    "url": "https://github.com/egorlem/agent-skills/issues"
   },
   "keywords": [
     "agent-skills",
     "agent-skill",
     "skills",
+    "pi",
+    "pi-package",
     "zsh",
     "zsh-completion",
     "completions",
-    "compdef",
-    "pi-package",
-    "skills",
-    "pi"
+    "compdef"
   ],
   "files": [
     "SKILL.md",
@@ -33,6 +32,11 @@
     "scripts/",
     "tests/"
   ],
+  "pi": {
+    "skills": [
+      "./SKILL.md"
+    ]
+  },
   "publishConfig": {
     "access": "public"
   }
